@@ -33,6 +33,10 @@ body {
   padding: 4rem 4rem 0 4rem;
 }
 
+body.noscroll {
+  overflow: hidden;
+}
+
 /* Container */
 
 .container {
@@ -74,6 +78,7 @@ header {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 3px;
   min-height: 93.4vh;
   width: 50%;
 }
@@ -121,6 +126,7 @@ header {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 3px;
   min-height: 93.4vh;
   width: 50%;
 }
@@ -535,6 +541,13 @@ main {
   list-style: none;
   transition: 0.3s all linear;
   cursor: pointer;
+}
+.footer li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.footer a:not(:last-child) {
+  margin-bottom: 1rem;
 }
 
 .footer li:hover {
