@@ -87,10 +87,6 @@ header {
   width: 50%;
 }
 
-/* .header-logo {
-  margin: 4rem 0 0 4rem;
-} */
-
 /* Both side same */
 .header-bottom-text {
   display: flex;
@@ -531,6 +527,12 @@ main {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition: 0.3s all linear;
+}
+
+.text-center-input i:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 /* Footer */
