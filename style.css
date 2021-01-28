@@ -30,11 +30,15 @@ body {
   font-family: "Lora", serif;
   font-size: 1.6rem;
   font-weight: 400;
-  padding: 4rem 4rem 0 4rem;
+  /* padding: 4rem 4rem 0 4rem; */
 }
 
 body.noscroll {
   overflow: hidden;
+}
+
+.wrapper {
+  padding: 4rem 4rem 0 4rem;
 }
 
 /* Container */
