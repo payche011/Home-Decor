@@ -9,7 +9,7 @@ Version: 1.0
 :root {
   --beigeColor: #f5f1ea;
   --whiteColor: #fff;
-  --fontColor: #9e95af;
+  --fontColor: #666666;
   --titleColor: #333333;
   --secondaryFont: "Open Sans", sans-serif;
 }
@@ -356,7 +356,6 @@ main {
 }
 
 .card-text .card-text ~ p {
-  /* display: block; */
   font-size: 2rem;
   font-family: var(--secondaryFont);
   font-weight: 400;
@@ -683,6 +682,21 @@ main {
   .header-bg-right {
     min-height: 50vh;
     height: 50vh;
+  }
+
+  .gallery-2 .photo-grid .card-text {
+    opacity: 1;
+    height: 30vh;
+  }
+
+  .gallery-2 .photo-grid .card-text::after {
+    height: 30vh;
+    bottom: 0;
+    opacity: 1;
+  }
+
+  .gallery-2 .pic-2 .card-text {
+    top: 75%;
   }
 
   .text-center input[type="text"] {
